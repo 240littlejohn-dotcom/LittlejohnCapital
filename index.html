@@ -1,1 +1,273 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Littlejohn Capital</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f5f4f0;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background-color: #0d1f3c;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .brand {
+      color: #c9a84c;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    /* ── Navigation ── */
+    nav {
+      display: flex;
+      gap: 0.25rem;
+    }
+
+    nav a {
+      color: #d4d0c8;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.5rem 1.1rem;
+      border-radius: 4px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background-color: rgba(201, 168, 76, 0.15);
+      color: #c9a84c;
+    }
+
+    /* ── Tab content panels ── */
+    .tab-panel {
+      display: none;
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    /* ── Home panel ── */
+    #home {
+      text-align: center;
+      padding-top: 7rem;
+    }
+
+    #home h1 {
+      font-size: 3rem;
+      color: #0d1f3c;
+      letter-spacing: 0.04em;
+      margin-bottom: 1rem;
+    }
+
+    #home .gold-rule {
+      width: 80px;
+      height: 3px;
+      background-color: #c9a84c;
+      margin: 1.5rem auto;
+    }
+
+    #home p {
+      font-size: 1.15rem;
+      color: #444;
+      line-height: 1.8;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* ── Database panel ── */
+    #database h2,
+    #about h2,
+    #contact h2 {
+      font-size: 2rem;
+      color: #0d1f3c;
+      margin-bottom: 0.5rem;
+      border-bottom: 3px solid #c9a84c;
+      padding-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    #database p,
+    #about p,
+    #contact p {
+      margin-top: 1.5rem;
+      font-size: 1.05rem;
+      color: #444;
+      line-height: 1.8;
+    }
+
+    /* ── Contact form ── */
+    form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+    }
+
+    form label {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #555;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: inherit;
+      background: #fff;
+      margin-top: 0.25rem;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: none;
+      border-color: #0d1f3c;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    form button {
+      align-self: flex-start;
+      padding: 0.7rem 2rem;
+      background-color: #0d1f3c;
+      color: #c9a84c;
+      border: none;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    form button:hover {
+      background-color: #1a3560;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      color: #888;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f5f4f0;
+      border-top: 1px solid #e0ddd6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="brand" href="#" onclick="showTab('home', this); return false;">Littlejohn Capital</a>
+    <nav>
+      <a href="#" onclick="showTab('database', this); return false;">Database</a>
+      <a href="#" onclick="showTab('about', this); return false;">About</a>
+      <a href="#" onclick="showTab('contact', this); return false;">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <div id="home" class="tab-panel active">
+    <h1>Littlejohn Capital</h1>
+    <div class="gold-rule"></div>
+    <p>A disciplined approach to value investing and long-term wealth creation.</p>
+  </div>
+
+  <!-- Database -->
+  <div id="database" class="tab-panel">
+    <h2>Database</h2>
+    <p>Access our proprietary research database, portfolio analytics, and market data tools.</p>
+  </div>
+
+  <!-- About -->
+  <div id="about" class="tab-panel">
+    <h2>About</h2>
+    <p>Littlejohn Capital is a private investment firm focused on fundamental research and long-term value creation. We apply rigorous analysis and disciplined capital allocation across public and private markets.</p>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="tab-panel">
+    <h2>Contact</h2>
+    <p>Reach out to our team with any inquiries.</p>
+    <form onsubmit="return false;">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com" />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="How can we help?"></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2026 Littlejohn Capital. All rights reserved.
+  </footer>
+
+  <script>
+    function showTab(id, clickedLink) {
+      // Hide all panels
+      document.querySelectorAll('.tab-panel').forEach(function(p) {
+        p.classList.remove('active');
+      });
+      // Remove active from all nav links
+      document.querySelectorAll('nav a').forEach(function(a) {
+        a.classList.remove('active');
+      });
+      // Show target panel
+      document.getElementById(id).classList.add('active');
+      // Mark clicked link active (skip brand link)
+      if (clickedLink && clickedLink.closest('nav')) {
+        clickedLink.classList.add('active');
+      }
+    }
+  </script>
+
+</body>
+</html>
