@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "ScorePlay",
+    "url": "https://www.scoreplay.io",
+    "linkedin": "https://www.linkedin.com/company/scoreplay",
+    "vertical": "Sports Tech",
+    "stage": "Series A",
+    "funding": "$13M Series A",
+    "founder": "Alexis Pissard-Gibollet, Arthur Bouton",
+    "yearFounded": 2021,
+    "location": "New York, US",
+    "tagline": "AI-powered media hub that automatically tags and distributes sports content for 200+ teams and leagues in real time.",
+    "why": "FIBA-backed and trusted by 200+ sports organizations globally, ScorePlay solves the real-time content distribution problem that every major sports property faces. Their January 2025 Series A at $13M total validates the enterprise demand — and as media fragmentation accelerates, owning the content infrastructure layer is a strong moat.",
+    "sourceName": "Mehtta Ventures",
+    "sourceUrl": "https://mehttaventuresdubai.substack.com/p/the-us-sports-tech-hotlist-5-early",
+    "added": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "name": "Raidium",
+    "url": "https://raidium.eu",
+    "linkedin": "https://www.linkedin.com/company/raidium",
+    "vertical": "Health Tech",
+    "stage": "Seed",
+    "funding": "€16M Seed",
+    "founder": "Paul Hérent, Pierre Manceron",
+    "yearFounded": 2022,
+    "location": "Paris, France",
+    "tagline": "The 'GPT of radiology' — an AI-native foundation model that reads CT scans and MRIs in seconds, the way a radiologist would.",
+    "why": "Founded by a radiologist and a data scientist from Owkin, Raidium built the world's first 3D large vision-language model for medical imaging. Their €16M seed co-led by Newfund and Kurma (Nov 2024) — with EIC backing — puts them at the frontier of applied clinical AI. Radiology is one of the highest-value, most AI-ready specialties in healthcare.",
+    "sourceName": "Tech.eu",
+    "sourceUrl": "https://tech.eu/2024/12/02/french-startup-raidium-secures-13m-seed-for-precision-radiology/",
+    "added": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "name": "Lempire",
+    "url": "https://www.lempire.com",
+    "linkedin": "https://www.linkedin.com/company/lempire",
+    "vertical": "B2B SaaS",
+    "stage": "Bootstrapped",
+    "funding": "Bootstrapped",
+    "founder": "Guillaume Moubeche",
+    "yearFounded": 2018,
+    "location": "Paris, France",
+    "tagline": "A bootstrapped suite of B2B growth tools — lemlist, Taplio, Tweet Hunter — built to help businesses scale through outreach and content.",
+    "why": "Guillaume Moubeche scaled Lempire to $45M ARR with a 90-person team and $10M EBITDA — zero primary VC. The portfolio model (multiple SaaS tools under one brand) is rare and defensible, and the build-in-public playbook has created an outsized distribution engine that most funded competitors can't replicate.",
+    "sourceName": "Scalewise",
+    "sourceUrl": "https://www.scalewise.com/guillaume-moubeche/",
+    "added": "2026-04-10T12:00:00.000Z"
+  }
+]
