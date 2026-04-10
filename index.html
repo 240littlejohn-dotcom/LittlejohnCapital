@@ -12,68 +12,76 @@
     nav { display: flex; gap: 0.25rem; }
     nav a { color: #d4d0c8; text-decoration: none; font-family: 'Arial', sans-serif; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.5rem 1.1rem; border-radius: 4px; transition: background-color 0.2s, color 0.2s; }
     nav a:hover, nav a.active { background-color: rgba(201,168,76,0.15); color: #c9a84c; }
-    .tab-panel { display: none; padding: 3rem 2rem 6rem; max-width: 960px; margin: 0 auto; }
+    .tab-panel { display: none; padding: 3rem 2rem 6rem; max-width: 1080px; margin: 0 auto; }
     .tab-panel.active { display: block; }
     #home { text-align: center; padding-top: 7rem; }
     #home h1 { font-size: 3rem; color: #0d1f3c; letter-spacing: 0.04em; margin-bottom: 1rem; }
     #home .gold-rule { width: 80px; height: 3px; background-color: #c9a84c; margin: 1.5rem auto; }
     #home p { font-size: 1.15rem; color: #444; line-height: 1.8; max-width: 600px; margin: 0 auto; }
-    #database h2, #about h2, #contact h2 { font-size: 2rem; color: #0d1f3c; margin-bottom: 0.5rem; border-bottom: 3px solid #c9a84c; padding-bottom: 0.5rem; display: inline-block; }
+    #about h2, #contact h2 { font-size: 2rem; color: #0d1f3c; margin-bottom: 0.5rem; border-bottom: 3px solid #c9a84c; padding-bottom: 0.5rem; display: inline-block; }
     #about p, #contact p { margin-top: 1.5rem; font-size: 1.05rem; color: #444; line-height: 1.8; }
-    .db-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.75rem; flex-wrap: wrap; gap: 1rem; }
-    .db-controls { display: flex; gap: 0.75rem; flex-wrap: wrap; flex: 1; }
-    .db-controls input[type="text"] { flex: 1; min-width: 180px; padding: 0.55rem 1rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; font-family: 'Arial', sans-serif; background: #fff; }
+    .db-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+    .db-topbar h2 { font-size: 2rem; color: #0d1f3c; border-bottom: 3px solid #c9a84c; padding-bottom: 0.5rem; display: inline-block; }
+    .db-stats { display: flex; gap: 2.5rem; margin-bottom: 1.5rem; padding: 1rem 1.5rem; background: #0d1f3c; border-radius: 8px; flex-wrap: wrap; }
+    .db-stat { font-family: 'Arial', sans-serif; }
+    .db-stat strong { display: block; font-size: 1.5rem; color: #c9a84c; font-weight: 700; }
+    .db-stat span { font-size: 0.72rem; color: #a0a8b8; text-transform: uppercase; letter-spacing: 0.07em; }
+    .db-controls { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .db-controls input[type="text"] { flex: 2; min-width: 200px; padding: 0.55rem 1rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; font-family: 'Arial', sans-serif; background: #fff; }
     .db-controls input[type="text"]:focus { outline: none; border-color: #0d1f3c; }
-    .db-controls select { padding: 0.55rem 1rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; font-family: 'Arial', sans-serif; background: #fff; cursor: pointer; }
+    .db-controls select { padding: 0.55rem 1rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.85rem; font-family: 'Arial', sans-serif; background: #fff; cursor: pointer; }
     .db-controls select:focus { outline: none; border-color: #0d1f3c; }
     .btn-primary { padding: 0.6rem 1.4rem; background-color: #0d1f3c; color: #c9a84c; border: none; border-radius: 4px; font-family: 'Arial', sans-serif; font-size: 0.85rem; letter-spacing: 0.07em; text-transform: uppercase; cursor: pointer; white-space: nowrap; transition: background-color 0.2s; }
     .btn-primary:hover { background-color: #1a3560; }
     .btn-secondary { padding: 0.6rem 1.4rem; background: transparent; color: #555; border: 1px solid #ccc; border-radius: 4px; font-family: 'Arial', sans-serif; font-size: 0.85rem; letter-spacing: 0.07em; text-transform: uppercase; cursor: pointer; transition: border-color 0.2s, color 0.2s; }
     .btn-secondary:hover { border-color: #0d1f3c; color: #0d1f3c; }
-    .btn-danger { padding: 0.35rem 0.8rem; background: transparent; color: #b94a4a; border: 1px solid #b94a4a; border-radius: 4px; font-size: 0.75rem; font-family: 'Arial', sans-serif; cursor: pointer; transition: background 0.15s; }
+    .btn-danger { padding: 0.3rem 0.75rem; background: transparent; color: #b94a4a; border: 1px solid #b94a4a; border-radius: 4px; font-size: 0.72rem; font-family: 'Arial', sans-serif; cursor: pointer; transition: background 0.15s; }
     .btn-danger:hover { background: #b94a4a; color: #fff; }
-    .db-stats { display: flex; gap: 2rem; margin-bottom: 1.5rem; padding: 1rem 1.5rem; background: #0d1f3c; border-radius: 8px; flex-wrap: wrap; }
-    .db-stat { font-family: 'Arial', sans-serif; }
-    .db-stat strong { display: block; font-size: 1.5rem; color: #c9a84c; font-weight: 700; }
-    .db-stat span { font-size: 0.75rem; color: #a0a8b8; text-transform: uppercase; letter-spacing: 0.06em; }
-    #company-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 1rem; }
+    #company-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); gap: 1rem; }
     .company-card { background: #fff; border: 1px solid #e4e2db; border-radius: 10px; padding: 1.25rem 1.5rem; transition: border-color 0.15s, box-shadow 0.15s; }
-    .company-card:hover { border-color: #c9a84c; box-shadow: 0 2px 12px rgba(13,31,60,0.07); }
-    .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; gap: 0.75rem; }
+    .company-card:hover { border-color: #c9a84c; box-shadow: 0 2px 14px rgba(13,31,60,0.08); }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.4rem; gap: 0.75rem; }
     .card-name { font-size: 1.05rem; font-weight: bold; color: #0d1f3c; text-decoration: none; }
     .card-name:hover { color: #c9a84c; }
-    .card-tag { font-family: 'Arial', sans-serif; font-size: 0.7rem; font-weight: 700; border-radius: 4px; padding: 3px 8px; white-space: nowrap; flex-shrink: 0; }
-    .tag-devtools { background: #e8f5e9; color: #2e7d32; }
-    .tag-data { background: #e3f2fd; color: #1565c0; }
-    .tag-sales { background: #f3e5f5; color: #6a1b9a; }
-    .tag-marketing { background: #fff3e0; color: #e65100; }
-    .tag-ai { background: #e8eaf6; color: #283593; }
-    .tag-infra { background: #e0f2f1; color: #00695c; }
-    .tag-legal { background: #fce4ec; color: #880e4f; }
-    .tag-hr { background: #f9fbe7; color: #558b2f; }
+    .card-tag { font-family: 'Arial', sans-serif; font-size: 0.68rem; font-weight: 700; border-radius: 4px; padding: 3px 8px; white-space: nowrap; flex-shrink: 0; }
+    .tag-b2b { background: #e3f2fd; color: #1565c0; }
+    .tag-consumer { background: #f3e5f5; color: #6a1b9a; }
+    .tag-health { background: #e8f5e9; color: #2e7d32; }
+    .tag-sports { background: #fff3e0; color: #e65100; }
     .tag-other { background: #f5f5f5; color: #555; }
-    .card-tagline { font-size: 0.85rem; color: #555; margin-bottom: 0.65rem; line-height: 1.5; }
-    .card-why { font-size: 0.82rem; color: #333; line-height: 1.6; background: #f9f8f5; border-left: 3px solid #c9a84c; padding: 0.6rem 0.85rem; border-radius: 0 5px 5px 0; margin-bottom: 0.75rem; }
-    .card-meta { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-    .card-metric { font-family: 'Arial', sans-serif; font-size: 0.75rem; color: #888; }
-    .card-source { font-family: 'Arial', sans-serif; font-size: 0.75rem; color: #0d1f3c; text-decoration: none; font-weight: 600; margin-left: auto; }
+    .card-tagline { font-size: 0.84rem; color: #555; margin-bottom: 0.65rem; line-height: 1.5; }
+    .card-why { font-size: 0.81rem; color: #333; line-height: 1.6; background: #f9f8f5; border-left: 3px solid #c9a84c; padding: 0.55rem 0.85rem; border-radius: 0 5px 5px 0; margin-bottom: 0.85rem; }
+    .card-vitals { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.65rem; }
+    .stage-badge { font-family: 'Arial', sans-serif; font-size: 0.7rem; font-weight: 700; border-radius: 12px; padding: 3px 10px; white-space: nowrap; }
+    .stage-bootstrapped { background: #e8f5e9; color: #2e7d32; }
+    .stage-preseed { background: #fffde7; color: #f57f17; }
+    .stage-seed { background: #e3f2fd; color: #1565c0; }
+    .stage-seriesa { background: #f3e5f5; color: #6a1b9a; }
+    .vital-item { font-family: 'Arial', sans-serif; font-size: 0.75rem; color: #666; }
+    .vital-sep { color: #ccc; font-size: 0.7rem; }
+    .card-people { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.75rem; }
+    .card-founder { font-family: 'Arial', sans-serif; font-size: 0.78rem; color: #444; }
+    .card-linkedin { font-family: 'Arial', sans-serif; font-size: 0.75rem; color: #0a66c2; text-decoration: none; font-weight: 600; }
+    .card-linkedin:hover { text-decoration: underline; }
+    .card-footer { display: flex; justify-content: space-between; align-items: center; padding-top: 0.6rem; border-top: 1px solid #f0ede6; }
+    .card-meta-left { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    .card-source { font-family: 'Arial', sans-serif; font-size: 0.73rem; color: #0d1f3c; text-decoration: none; font-weight: 600; }
     .card-source:hover { color: #c9a84c; }
-    .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 0.75rem; padding-top: 0.65rem; border-top: 1px solid #f0ede6; }
-    .card-date { font-family: 'Arial', sans-serif; font-size: 0.72rem; color: #bbb; }
-    #empty-state { display: none; text-align: center; padding: 4rem 2rem; color: #aaa; font-family: 'Arial', sans-serif; }
-    #empty-state .empty-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-    #empty-state p { font-size: 0.95rem; }
+    .card-date { font-family: 'Arial', sans-serif; font-size: 0.7rem; color: #bbb; }
+    #empty-state, #loading-state { display: none; text-align: center; padding: 4rem 2rem; color: #aaa; font-family: 'Arial', sans-serif; }
+    .state-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    #empty-state p, #loading-state p { font-size: 0.95rem; }
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(13,31,60,0.55); z-index: 100; align-items: center; justify-content: center; padding: 1rem; }
     .modal-overlay.open { display: flex; }
-    .modal { background: #fff; border-radius: 12px; padding: 2rem; width: 100%; max-width: 540px; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
+    .modal { background: #fff; border-radius: 12px; padding: 2rem; width: 100%; max-width: 580px; max-height: 92vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
     .modal h3 { font-size: 1.3rem; color: #0d1f3c; margin-bottom: 1.5rem; border-bottom: 2px solid #c9a84c; padding-bottom: 0.5rem; }
-    .modal-form { display: flex; flex-direction: column; gap: 1rem; }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .modal-form { display: flex; flex-direction: column; gap: 0.85rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
     .form-group { display: flex; flex-direction: column; gap: 0.3rem; }
-    .form-group label { font-family: 'Arial', sans-serif; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #555; }
-    .form-group input, .form-group select, .form-group textarea { padding: 0.6rem 0.85rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem; font-family: inherit; background: #fff; }
+    .form-group label { font-family: 'Arial', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #555; }
+    .form-group input, .form-group select, .form-group textarea { padding: 0.55rem 0.85rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem; font-family: inherit; background: #fff; }
     .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #0d1f3c; }
-    .form-group textarea { resize: vertical; min-height: 80px; }
+    .form-group textarea { resize: vertical; min-height: 75px; }
     .modal-actions { display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 0.5rem; }
     form#contact-form { margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; max-width: 500px; }
     form#contact-form label { font-family: 'Arial', sans-serif; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: #555; }
@@ -87,11 +95,11 @@
 </head>
 <body>
 <header>
-  <a class="brand" href="#" onclick="showTab('home', this); return false;">Littlejohn Capital</a>
+  <a class="brand" href="#" onclick="showTab('home',this);return false;">Littlejohn Capital</a>
   <nav>
-    <a href="#" onclick="showTab('database', this); return false;">Database</a>
-    <a href="#" onclick="showTab('about', this); return false;">About</a>
-    <a href="#" onclick="showTab('contact', this); return false;">Contact</a>
+    <a href="#" onclick="showTab('database',this);return false;">Database</a>
+    <a href="#" onclick="showTab('about',this);return false;">About</a>
+    <a href="#" onclick="showTab('contact',this);return false;">Contact</a>
   </nav>
 </header>
 <div id="home" class="tab-panel active">
@@ -100,44 +108,25 @@
   <p>A disciplined approach to value investing and long-term wealth creation.</p>
 </div>
 <div id="database" class="tab-panel">
-  <div class="db-topbar">
-    <h2>Database</h2>
-    <button class="btn-primary" onclick="openAddModal()">+ Add Company</button>
+  <div class="db-topbar"><h2>Database</h2><button class="btn-primary" onclick="openAddModal()">+ Add Company</button></div>
+  <div id="db-stats" class="db-stats"><div class="db-stat"><strong>&#8212;</strong><span>Companies</span></div></div>
+  <div class="db-controls">
+    <input type="text" id="db-search" placeholder="Search companies, founders, verticals&#8230;" oninput="renderCards()" />
+    <select id="db-filter-vertical" onchange="renderCards()"><option value="">All Verticals</option><option value="B2B SaaS">B2B SaaS</option><option value="Consumer Tech">Consumer Tech</option><option value="Health Tech">Health Tech</option><option value="Sports Tech">Sports Tech</option><option value="Other">Other</option></select>
+    <select id="db-filter-stage" onchange="renderCards()"><option value="">All Stages</option><option value="Bootstrapped">Bootstrapped</option><option value="Pre-Seed">Pre-Seed</option><option value="Seed">Seed</option><option value="Series A">Series A</option></select>
+    <select id="db-filter-location" onchange="renderCards()"><option value="">All Regions</option><option value="US">United States</option><option value="Canada">Canada</option><option value="Europe">Europe</option></select>
   </div>
-  <div id="db-stats" class="db-stats"></div>
-  <div class="db-controls" style="margin-bottom:1.5rem;">
-    <input type="text" id="db-search" placeholder="Search companies, verticals, metrics..." oninput="renderCards()" />
-    <select id="db-filter" onchange="renderCards()">
-      <option value="">All Verticals</option>
-      <option value="Developer Tools">Developer Tools</option>
-      <option value="Data / BI">Data / BI</option>
-      <option value="Sales Engagement">Sales Engagement</option>
-      <option value="Marketing / Growth">Marketing / Growth</option>
-      <option value="AI / Automation">AI / Automation</option>
-      <option value="Infrastructure">Infrastructure</option>
-      <option value="Legal / Finance">Legal / Finance</option>
-      <option value="HR / People Ops">HR / People Ops</option>
-      <option value="DevOps / Agency">DevOps / Agency</option>
-      <option value="Other">Other</option>
-    </select>
-  </div>
+  <div id="loading-state"><div class="state-icon">&#9203;</div><p>Loading companies&#8230;</p></div>
   <div id="company-grid"></div>
-  <div id="empty-state">
-    <div class="empty-icon">📂</div>
-    <p>No companies yet.<br/>Click <strong>+ Add Company</strong> to start building your database.</p>
-  </div>
+  <div id="empty-state"><div class="state-icon">&#128194;</div><p>No companies found.<br/>Try adjusting your filters or click <strong>+ Add Company</strong>.</p></div>
 </div>
-<div id="about" class="tab-panel">
-  <h2>About</h2>
-  <p>Littlejohn Capital is a private investment firm focused on fundamental research and long-term value creation. We apply rigorous analysis and disciplined capital allocation across public and private markets.</p>
-</div>
+<div id="about" class="tab-panel"><h2>About</h2><p>Littlejohn Capital is a private investment firm focused on fundamental research and long-term value creation.</p></div>
 <div id="contact" class="tab-panel">
-  <h2>Contact</h2>
-  <p>Reach out to our team with any inquiries.</p>
+  <h2>Contact</h2><p>Reach out to our team with any inquiries.</p>
   <form id="contact-form" onsubmit="return false;">
-    <div><label for="name">Name</label><input type="text" id="name" placeholder="Your name" /></div>
-    <div><label for="email">Email</label><input type="email" id="email" placeholder="your@email.com" /></div>
-    <div><label for="message">Message</label><textarea id="message" placeholder="How can we help?"></textarea></div>
+    <div><label for="cname">Name</label><input type="text" id="cname" placeholder="Your name" /></div>
+    <div><label for="cemail">Email</label><input type="email" id="cemail" placeholder="your@email.com" /></div>
+    <div><label for="cmessage">Message</label><textarea id="cmessage" placeholder="How can we help?"></textarea></div>
     <button type="submit">Send Message</button>
   </form>
 </div>
@@ -146,27 +135,28 @@
     <h3>Add Company</h3>
     <div class="modal-form">
       <div class="form-row">
-        <div class="form-group"><label>Company Name *</label><input type="text" id="f-name" placeholder="e.g. Bannerbear" /></div>
-        <div class="form-group"><label>Vertical *</label>
-          <select id="f-vertical">
-            <option value="">Select...</option>
-            <option>Developer Tools</option><option>Data / BI</option><option>Sales Engagement</option>
-            <option>Marketing / Growth</option><option>AI / Automation</option><option>Infrastructure</option>
-            <option>Legal / Finance</option><option>HR / People Ops</option><option>DevOps / Agency</option><option>Other</option>
-          </select>
-        </div>
+        <div class="form-group"><label>Company Name *</label><input type="text" id="f-name" placeholder="e.g. Acme Inc." /></div>
+        <div class="form-group"><label>Year Founded</label><input type="number" id="f-year" placeholder="e.g. 2021" min="2014" max="2026" /></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Vertical *</label><select id="f-vertical"><option value="">Select&#8230;</option><option>B2B SaaS</option><option>Consumer Tech</option><option>Health Tech</option><option>Sports Tech</option><option>Other</option></select></div>
+        <div class="form-group"><label>Stage *</label><select id="f-stage"><option value="">Select&#8230;</option><option>Bootstrapped</option><option>Pre-Seed</option><option>Seed</option><option>Series A</option></select></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Funding Amount</label><input type="text" id="f-funding" placeholder="e.g. $2.5M" /></div>
+        <div class="form-group"><label>Location</label><input type="text" id="f-location" placeholder="e.g. New York, US" /></div>
+      </div>
+      <div class="form-group"><label>Founder(s)</label><input type="text" id="f-founder" placeholder="e.g. Jane Doe" /></div>
+      <div class="form-row">
+        <div class="form-group"><label>Company URL</label><input type="url" id="f-url" placeholder="https://" /></div>
+        <div class="form-group"><label>LinkedIn URL</label><input type="url" id="f-linkedin" placeholder="https://linkedin.com/company/" /></div>
       </div>
       <div class="form-group"><label>One-Line Description *</label><input type="text" id="f-tagline" placeholder="What does the company do?" /></div>
-      <div class="form-group"><label>Why Interesting</label><textarea id="f-why" placeholder="Key signals, growth story, what makes them stand out..."></textarea></div>
+      <div class="form-group"><label>Why Interesting</label><textarea id="f-why" placeholder="Key signals, traction..." /></div>
       <div class="form-row">
-        <div class="form-group"><label>Key Metric</label><input type="text" id="f-metric1" placeholder="e.g. 💰 $40K MRR" /></div>
-        <div class="form-group"><label>Second Metric</label><input type="text" id="f-metric2" placeholder="e.g. 👥 2-person team" /></div>
+        <div class="form-group"><label>Source Name</label><input type="text" id="f-source-name" placeholder="e.g. TechCrunch" /></div>
+        <div class="form-group"><label>Source URL</label><input type="url" id="f-source-url" placeholder="https://" /></div>
       </div>
-      <div class="form-row">
-        <div class="form-group"><label>Company URL</label><input type="url" id="f-url" placeholder="https://..." /></div>
-        <div class="form-group"><label>Source URL</label><input type="url" id="f-source-url" placeholder="https://..." /></div>
-      </div>
-      <div class="form-group"><label>Source Name</label><input type="text" id="f-source-name" placeholder="e.g. IndieHackers, TechCrunch" /></div>
       <div class="modal-actions">
         <button class="btn-secondary" onclick="closeAddModal()">Cancel</button>
         <button class="btn-primary" onclick="saveCompany()">Save Company</button>
@@ -174,61 +164,24 @@
     </div>
   </div>
 </div>
-<footer>&copy; 2026 Littlejohn Capital. All rights reserved.</footer>
+<footer>&#169; 2026 Littlejohn Capital. All rights reserved.</footer>
 <script>
-  function showTab(id, el) {
-    document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active');});
-    document.querySelectorAll('nav a').forEach(function(a){a.classList.remove('active');});
-    document.getElementById(id).classList.add('active');
-    if (el && el.closest('nav')) el.classList.add('active');
-    if (id === 'database') renderCards();
-  }
-  function getCompanies() { try { return JSON.parse(localStorage.getItem('lc_companies') || '[]'); } catch(e) { return []; } }
-  function saveCompanies(arr) { localStorage.setItem('lc_companies', JSON.stringify(arr)); }
-  var tagClass = { 'Developer Tools':'tag-devtools','Data / BI':'tag-data','Sales Engagement':'tag-sales','Marketing / Growth':'tag-marketing','AI / Automation':'tag-ai','Infrastructure':'tag-infra','Legal / Finance':'tag-legal','HR / People Ops':'tag-hr','DevOps / Agency':'tag-devtools','Other':'tag-other' };
-  function renderCards() {
-    var companies = getCompanies();
-    var search = (document.getElementById('db-search') ? document.getElementById('db-search').value : '').toLowerCase();
-    var filter = document.getElementById('db-filter') ? document.getElementById('db-filter').value : '';
-    var filtered = companies.filter(function(c) {
-      var ms = !search || c.name.toLowerCase().includes(search) || (c.tagline||'').toLowerCase().includes(search) || (c.vertical||'').toLowerCase().includes(search) || (c.why||'').toLowerCase().includes(search) || (c.metric1||'').toLowerCase().includes(search) || (c.metric2||'').toLowerCase().includes(search);
-      return ms && (!filter || c.vertical === filter);
-    });
-    var verts = companies.map(function(c){return c.vertical;}).filter(function(v,i,a){return v && a.indexOf(v)===i;});
-    var stats = document.getElementById('db-stats');
-    if (stats) stats.innerHTML = '<div class="db-stat"><strong>'+companies.length+'</strong><span>Companies</span></div><div class="db-stat"><strong>'+verts.length+'</strong><span>Verticals</span></div>';
-    var grid = document.getElementById('company-grid');
-    var empty = document.getElementById('empty-state');
-    if (!filtered.length) { if(grid) grid.innerHTML=''; if(empty) empty.style.display='block'; return; }
-    if(empty) empty.style.display='none';
-    if(grid) grid.innerHTML = filtered.map(function(c) {
-      var ri = companies.indexOf(c);
-      var tc = tagClass[c.vertical] || 'tag-other';
-      var nm = c.url ? '<a class="card-name" href="'+c.url+'" target="_blank">'+c.name+' ↗</a>' : '<span class="card-name">'+c.name+'</span>';
-      var mx = [c.metric1,c.metric2].filter(Boolean).map(function(m){return '<span class="card-metric">'+m+'</span>';}).join('');
-      var src = (c.sourceUrl&&c.sourceName) ? '<a class="card-source" href="'+c.sourceUrl+'" target="_blank">'+c.sourceName+' →</a>' : '';
-      var dt = c.added ? new Date(c.added).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
-      return '<div class="company-card"><div class="card-top">'+nm+'<span class="card-tag '+tc+'">'+(c.vertical||'Other')+'</span></div>'+(c.tagline?'<div class="card-tagline">'+c.tagline+'</div>':'')+(c.why?'<div class="card-why">'+c.why+'</div>':'')+'<div class="card-meta">'+mx+src+'</div><div class="card-footer"><span class="card-date">'+(dt?'Added '+dt:'')+'</span><button class="btn-danger" onclick="deleteCompany('+ri+')">Remove</button></div></div>';
-    }).join('');
-  }
-  function openAddModal() {
-    ['f-name','f-tagline','f-why','f-metric1','f-metric2','f-url','f-source-url','f-source-name'].forEach(function(id){document.getElementById(id).value='';});
-    document.getElementById('f-vertical').value='';
-    document.getElementById('add-modal').classList.add('open');
-  }
-  function closeAddModal() { document.getElementById('add-modal').classList.remove('open'); }
-  function handleOverlayClick(e) { if(e.target===document.getElementById('add-modal')) closeAddModal(); }
-  function saveCompany() {
-    var name=document.getElementById('f-name').value.trim(), vertical=document.getElementById('f-vertical').value;
-    if(!name||!vertical){alert('Please fill in Company Name and Vertical.');return;}
-    var c={name:name,vertical:vertical,tagline:document.getElementById('f-tagline').value.trim(),why:document.getElementById('f-why').value.trim(),metric1:document.getElementById('f-metric1').value.trim(),metric2:document.getElementById('f-metric2').value.trim(),url:document.getElementById('f-url').value.trim(),sourceUrl:document.getElementById('f-source-url').value.trim(),sourceName:document.getElementById('f-source-name').value.trim(),added:new Date().toISOString()};
-    var arr=getCompanies(); arr.unshift(c); saveCompanies(arr); closeAddModal(); renderCards();
-  }
-  function deleteCompany(i) {
-    if(!confirm('Remove this company?')) return;
-    var arr=getCompanies(); arr.splice(i,1); saveCompanies(arr); renderCards();
-  }
-  renderCards();
+var GITHUB_JSON='https://raw.githubusercontent.com/240littlejohn-dotcom/LittlejohnCapital/main/companies.json';
+var allCompanies=[];
+function showTab(id,el){document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active');});document.querySelectorAll('nav a').forEach(function(a){a.classList.remove('active');});document.getElementById(id).classList.add('active');if(el&&el.closest('nav'))el.classList.add('active');if(id==='database')loadAndRender();}
+function loadAndRender(){document.getElementById('loading-state').style.display='block';document.getElementById('company-grid').innerHTML='';document.getElementById('empty-state').style.display='none';fetch(GITHUB_JSON+'?t='+Date.now()).then(function(r){return r.ok?r.json():[];}).catch(function(){return[];}).then(function(remote){var local=getLocalCompanies();var names={};remote.forEach(function(c){names[c.name.toLowerCase()]=true;});var extras=local.filter(function(c){return!names[c.name.toLowerCase()];});allCompanies=extras.concat(remote);document.getElementById('loading-state').style.display='none';renderCards();});}
+function getLocalCompanies(){try{return JSON.parse(localStorage.getItem('lc_companies')||'[]');}catch(e){return[];}}
+function saveLocalCompanies(arr){localStorage.setItem('lc_companies',JSON.stringify(arr));}
+var verticalClass={'B2B SaaS':'tag-b2b','Consumer Tech':'tag-consumer','Health Tech':'tag-health','Sports Tech':'tag-sports'};
+var stageClass={'Bootstrapped':'stage-bootstrapped','Pre-Seed':'stage-preseed','Seed':'stage-seed','Series A':'stage-seriesa'};
+function renderCards(){var search=(document.getElementById('db-search')?document.getElementById('db-search').value:'').toLowerCase();var fv=document.getElementById('db-filter-vertical')?document.getElementById('db-filter-vertical').value:'';var fs=document.getElementById('db-filter-stage')?document.getElementById('db-filter-stage').value:'';var fl=document.getElementById('db-filter-location')?document.getElementById('db-filter-location').value:'';var filtered=allCompanies.filter(function(c){var text=[c.name,c.tagline,c.vertical,c.stage,c.founder,c.location,c.why,c.funding].filter(Boolean).join(' ').toLowerCase();return(!search||text.includes(search))&&(!fv||c.vertical===fv)&&(!fs||c.stage===fs)&&(!fl||( c.location&&c.location.includes(fl)));});var stages=allCompanies.map(function(c){return c.stage;}).filter(function(v,i,a){return v&&a.indexOf(v)===i;});var verts=allCompanies.map(function(c){return c.vertical;}).filter(function(v,i,a){return v&&a.indexOf(v)===i;});document.getElementById('db-stats').innerHTML='<div class="db-stat"><strong>'+allCompanies.length+'</strong><span>Companies</span></div><div class="db-stat"><strong>'+verts.length+'</strong><span>Verticals</span></div><div class="db-stat"><strong>'+stages.length+'</strong><span>Stages</span></div>';var grid=document.getElementById('company-grid');var empty=document.getElementById('empty-state');if(!filtered.length){grid.innerHTML='';empty.style.display='block';return;}empty.style.display='none';grid.innerHTML=filtered.map(function(c){var tc=verticalClass[c.vertical]||'tag-other';var sc=stageClass[c.stage]||'stage-seed';var sl=c.stage||'';var nm=c.url?'<a class="card-name" href="'+esc(c.url)+'" target="_blank">'+esc(c.name)+' ↗</a>':'<span class="card-name">'+esc(c.name)+'</span>';var vitals='<span class="stage-badge '+sc+'">'+esc(sl)+'</span>';if(c.funding&&c.funding!=='-')vitals+='<span class="vital-sep">·</span><span class="vital-item">'+esc(c.funding)+'</span>';if(c.yearFounded)vitals+='<span class="vital-sep">·</span><span class="vital-item">Est. '+c.yearFounded+'</span>';if(c.location)vitals+='<span class="vital-sep">·</span><span class="vital-item">'+esc(c.location)+'</span>';var people='';if(c.founder)people+='<span class="card-founder">👤 '+esc(c.founder)+'</span>';if(c.linkedin)people+='<a class="card-linkedin" href="'+esc(c.linkedin)+'" target="_blank">🔗 LinkedIn ↗</a>';var src=(c.sourceUrl&&c.sourceName)?'<a class="card-source" href="'+esc(c.sourceUrl)+'" target="_blank">'+esc(c.sourceName)+' →</a>':'';var dt=c.added?new Date(c.added).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'';var isLocal=getLocalCompanies().some(function(l){return l.name===c.name;});var del=isLocal?'<button class="btn-danger" onclick="deleteLocal(\''+esc(c.name.replace(/\'/g,"\\'"))+'\')">Remove</button>':'';return'<div class="company-card"><div class="card-top">'+nm+'<span class="card-tag '+tc+'">'+esc(c.vertical||'Other')+'</span></div>'+(c.tagline?'<div class="card-tagline">'+esc(c.tagline)+'</div>':'')+(c.why?'<div class="card-why">'+esc(c.why)+'</div>':'')+'<div class="card-vitals">'+vitals+'</div>'+(people?'<div class="card-people">'+people+'</div>':'')+'<div class="card-footer"><div class="card-meta-left">'+src+(dt?'<span class="card-date">Added '+dt+'</span>':'')+'</div>'+del+'</div></div>';}).join('');}
+function esc(s){if(!s)return'';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function openAddModal(){['f-name','f-year','f-funding','f-location','f-founder','f-url','f-linkedin','f-tagline','f-why','f-source-name','f-source-url'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});['f-vertical','f-stage'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});document.getElementById('add-modal').classList.add('open');}
+function closeAddModal(){document.getElementById('add-modal').classList.remove('open');}
+function handleOverlayClick(e){if(e.target===document.getElementById('add-modal'))closeAddModal();}
+function saveCompany(){var name=document.getElementById('f-name').value.trim();var vertical=document.getElementById('f-vertical').value;var stage=document.getElementById('f-stage').value;if(!name||!vertical||!stage){alert('Please fill in Name, Vertical, and Stage.');return;}var c={name:name,vertical:vertical,stage:stage,yearFounded:document.getElementById('f-year').value?parseInt(document.getElementById('f-year').value):null,funding:document.getElementById('f-funding').value.trim(),location:document.getElementById('f-location').value.trim(),founder:document.getElementById('f-founder').value.trim(),url:document.getElementById('f-url').value.trim(),linkedin:document.getElementById('f-linkedin').value.trim(),tagline:document.getElementById('f-tagline').value.trim(),why:document.getElementById('f-why').value.trim(),sourceName:document.getElementById('f-source-name').value.trim(),sourceUrl:document.getElementById('f-source-url').value.trim(),added:new Date().toISOString()};var locals=getLocalCompanies();locals.unshift(c);saveLocalCompanies(locals);closeAddModal();loadAndRender();}
+function deleteLocal(name){if(!confirm('Remove "'+name+'" from your local entries?'))return;var locals=getLocalCompanies().filter(function(c){return c.name!==name;});saveLocalCompanies(locals);loadAndRender();}
+fetch(GITHUB_JSON+'?t='+Date.now()).then(function(r){return r.ok?r.json():[];}).catch(function(){return[];}).then(function(remote){var local=getLocalCompanies();var names={};remote.forEach(function(c){names[c.name.toLowerCase()]=true;});var extras=local.filter(function(c){return!names[c.name.toLowerCase()];});allCompanies=extras.concat(remote);});
 </script>
 </body>
 </html>
