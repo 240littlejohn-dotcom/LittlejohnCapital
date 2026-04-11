@@ -206,5 +206,53 @@
     "sourceName": "Mercury",
     "sourceUrl": "https://mercury.com/blog/founder-spotlight-peer-richelsen-calcom",
     "added": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "name": "Graza",
+    "url": "https://www.graza.co",
+    "linkedin": "https://www.linkedin.com/company/graza",
+    "vertical": "Consumer",
+    "stage": "Seed",
+    "funding": "~$1M Seed",
+    "founder": "Andrew Benin, Allen Dushi",
+    "yearFounded": 2022,
+    "location": "New York, US",
+    "tagline": "Single-origin Spanish olive oil in a squeezy bottle — designed to be cooked with, not saved for a special occasion.",
+    "why": "Hit $100K in revenue their first week, $19.7M by year two, $48M+ by year three — all on roughly $1M in seed capital. The genius was the product itself: a squeeze bottle that makes premium olive oil approachable and daily. Now in Whole Foods and Target. One of the most capital-efficient DTC brand-building stories in recent memory.",
+    "sourceName": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2024/06/07/how-graza-olive-oil-co-founder-andrew-benin-built-the-business.html",
+    "added": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "name": "Fishwife",
+    "url": "https://eatfishwife.com",
+    "linkedin": "https://www.linkedin.com/company/fishwife",
+    "vertical": "Consumer",
+    "stage": "Pre-Seed",
+    "funding": "Pre-Seed (undisclosed)",
+    "founder": "Becca Millstein, Caroline Goldfarb",
+    "yearFounded": 2020,
+    "location": "Los Angeles, US",
+    "tagline": "Beautifully tinned, sustainably sourced fish — turning a forgotten pantry staple into something you're proud to put on the table.",
+    "why": "Almost single-handedly revived the $2.6B US tinned fish category through obsessive branding and sustainability storytelling. Bootstrapped and angel-backed, now in Whole Foods nationally. Becca Millstein made Inc.'s Female Founders 250 list and appeared on Shark Tank. A masterclass in repositioning a commodity category through brand.",
+    "sourceName": "Retail Dive",
+    "sourceUrl": "https://www.retaildive.com/news/fishwife-dtc-success-tinned-fish/727643/",
+    "added": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "name": "Vacation Inc.",
+    "url": "https://www.vacation.inc",
+    "linkedin": "https://www.linkedin.com/company/vacation-inc",
+    "vertical": "Consumer",
+    "stage": "Series A",
+    "funding": "$6M Series A",
+    "founder": "Marty Bell, Lach Hall, Dakota Green",
+    "yearFounded": 2021,
+    "location": "Miami, US",
+    "tagline": "Award-winning sunscreen that smells like a vacation — on a mission to make SPF the most desirable product in your beach bag.",
+    "why": "Built an $80M retail sales brand on pure creative marketing and nostalgia — no complex tech, just the right product, aesthetic, and brand story. $6M Series A led by Silas Capital, VMG Partners later came in at a $210M valuation. Turned a commoditized SPF category into a lifestyle object. Proof that taste and brand conviction can build a defensible consumer business.",
+    "sourceName": "Inc.",
+    "sourceUrl": "https://www.inc.com/jennifer-conrad/vacations-80-million-sunscreen-brand-is-surfing-on-more-than-just-vibes/91181448",
+    "added": "2026-04-10T12:00:00.000Z"
   }
 ]
