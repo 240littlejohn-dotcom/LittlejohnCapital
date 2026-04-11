@@ -103,6 +103,7 @@
 
     /* ── Database panel ── */
     #database h2,
+    #investments h2,
     #about h2,
     #contact h2 {
       font-size: 2rem;
@@ -114,6 +115,7 @@
     }
 
     #database p,
+    #investments p,
     #about p,
     #contact p {
       margin-top: 1.5rem;
@@ -200,6 +202,8 @@
   <header>
     <a class="brand" href="#" onclick="showTab('home', this); return false;">Littlejohn Capital</a>
     <nav>
+      <a href="#" onclick="showTab('home', this); return false;" class="active">Home</a>
+      <a href="#" onclick="showTab('investments', this); return false;">Investments</a>
       <a href="#" onclick="showTab('database', this); return false;">Database</a>
       <a href="#" onclick="showTab('about', this); return false;">About</a>
       <a href="#" onclick="showTab('contact', this); return false;">Contact</a>
@@ -210,7 +214,13 @@
   <div id="home" class="tab-panel active">
     <h1>Littlejohn Capital</h1>
     <div class="gold-rule"></div>
-    <p>A disciplined approach to value investing and long-term wealth creation.</p>
+    <p>Welcome to Littlejohn Capital. This is a portfolio of work, not an investment firm with deployable capital. All opinions are my own, and no investments will be made. This site is not an established company.</p>
+  </div>
+
+  <!-- Investments -->
+  <div id="investments" class="tab-panel">
+    <h2>Investments</h2>
+    <p>Investment research, analysis, and portfolio work will be showcased here.</p>
   </div>
 
   <!-- Database -->
@@ -262,9 +272,11 @@
       });
       // Show target panel
       document.getElementById(id).classList.add('active');
-      // Mark clicked link active (skip brand link)
+      // Mark clicked nav link active; if brand was clicked, highlight Home
       if (clickedLink && clickedLink.closest('nav')) {
         clickedLink.classList.add('active');
+      } else if (id === 'home') {
+        document.querySelector('nav a[onclick*="home"]').classList.add('active');
       }
     }
   </script>
