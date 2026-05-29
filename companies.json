@@ -1,7 +1,7 @@
 [
   {
     "name": "Wabi",
-    "url": "https://wabi.com",
+    "url": "https://wabi.ai",
     "linkedin": "https://www.linkedin.com/company/wabi-app",
     "vertical": "Consumer Tech",
     "stage": "Pre-Seed",
@@ -17,7 +17,7 @@
   {
     "name": "Series",
     "url": "https://series.so",
-    "linkedin": "https://www.linkedin.com/company/series-ai",
+    "linkedin": "https://www.linkedin.com/company/joinseries",
     "vertical": "Consumer Tech",
     "stage": "Pre-Seed",
     "funding": "$5.1M Pre-Seed",
@@ -31,8 +31,8 @@
   },
   {
     "name": "Sitch",
-    "url": "https://sitch.app",
-    "linkedin": "https://www.linkedin.com/company/sitch-app",
+    "url": "https://joinsitch.com",
+    "linkedin": "https://www.linkedin.com/company/joinsitch",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$6.7M Seed",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Known",
-    "url": "https://known.dating",
+    "url": "https://known.com",
     "linkedin": "https://www.linkedin.com/company/known-dating",
     "vertical": "Consumer Tech",
     "stage": "Seed",
@@ -62,7 +62,7 @@
   {
     "name": "Dub",
     "url": "https://dubapp.com",
-    "linkedin": "https://www.linkedin.com/company/dub-app",
+    "linkedin": "https://www.linkedin.com/company/dubapp",
     "vertical": "Consumer Tech",
     "stage": "Series A",
     "funding": "$30M Series A",
@@ -91,8 +91,8 @@
   },
   {
     "name": "Daydream",
-    "url": "https://daydream.com",
-    "linkedin": "https://www.linkedin.com/company/daydream-com",
+    "url": "https://daydream.ing",
+    "linkedin": "https://www.linkedin.com/company/daydream-ing",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$50M Seed",
@@ -107,7 +107,7 @@
   {
     "name": "Phia",
     "url": "https://phia.com",
-    "linkedin": "https://www.linkedin.com/company/phia-app",
+    "linkedin": "https://www.linkedin.com/company/phia-co",
     "vertical": "Consumer Tech",
     "stage": "Series A",
     "funding": "$35M Series A",
@@ -121,8 +121,8 @@
   },
   {
     "name": "First Voyage",
-    "url": "https://firstvoyage.ai",
-    "linkedin": "https://www.linkedin.com/company/first-voyage-ai",
+    "url": "https://firstvoyage.com",
+    "linkedin": "https://www.linkedin.com/company/firstvoyage",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$2.5M Seed",
@@ -152,7 +152,7 @@
   {
     "name": "Sandbar",
     "url": "https://sandbar.com",
-    "linkedin": "https://www.linkedin.com/company/sandbar-stream",
+    "linkedin": "https://www.linkedin.com/company/sandbarinc",
     "vertical": "Consumer Tech",
     "stage": "Series A",
     "funding": "$23M Series A",
@@ -182,7 +182,7 @@
   {
     "name": "Agentio",
     "url": "https://agentio.com",
-    "linkedin": "https://www.linkedin.com/company/agentio",
+    "linkedin": "https://www.linkedin.com/company/agentio-hq",
     "vertical": "Consumer Tech",
     "stage": "Series A",
     "funding": "$12M Series A",
@@ -196,7 +196,7 @@
   },
   {
     "name": "Candle",
-    "url": "https://candleapp.com",
+    "url": "https://trycandle.app",
     "linkedin": "https://www.linkedin.com/company/candle-app",
     "vertical": "Consumer Tech",
     "stage": "Seed",
@@ -211,8 +211,8 @@
   },
   {
     "name": "Joy",
-    "url": "https://withjoy.health",
-    "linkedin": "https://www.linkedin.com/company/joyonchat",
+    "url": "https://joy.co",
+    "linkedin": "https://www.linkedin.com/company/joyparentingclub",
     "vertical": "Consumer Tech",
     "stage": "Series A",
     "funding": "$14M Series A",
@@ -226,8 +226,8 @@
   },
   {
     "name": "Boop",
-    "url": "https://boop.travel",
-    "linkedin": "https://www.linkedin.com/company/boop-travel",
+    "url": "https://boopwithme.com",
+    "linkedin": "https://www.linkedin.com/company/boop-ai",
     "vertical": "Consumer Tech",
     "stage": "Pre-Seed",
     "funding": "$3.2M Pre-Seed",
@@ -242,7 +242,7 @@
   {
     "name": "Airial",
     "url": "https://airial.travel",
-    "linkedin": "https://www.linkedin.com/company/airial-travel",
+    "linkedin": "https://www.linkedin.com/company/airialtravel",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$3M Seed",
@@ -256,7 +256,7 @@
   },
   {
     "name": "222",
-    "url": "https://two22.io",
+    "url": "https://222.place",
     "linkedin": "https://www.linkedin.com/company/222place",
     "vertical": "Consumer Tech",
     "stage": "Seed",
@@ -272,7 +272,7 @@
   {
     "name": "Adam",
     "url": "https://adam.new",
-    "linkedin": "https://www.linkedin.com/company/adam-new",
+    "linkedin": "https://www.linkedin.com/company/adamcad",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$4.1M Seed",
@@ -317,7 +317,7 @@
   {
     "name": "Super Teacher",
     "url": "https://getsuperteacher.com",
-    "linkedin": "https://www.linkedin.com/company/superteacherinc",
+    "linkedin": "https://www.linkedin.com/company/super-teacher-inc",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "Seed (Red Sea Ventures)",
@@ -332,7 +332,7 @@
   {
     "name": "ReciMe",
     "url": "https://recime.app",
-    "linkedin": "https://www.linkedin.com/company/recime-app",
+    "linkedin": "https://www.linkedin.com/company/recimeapp",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$1.5M Seed",
@@ -347,7 +347,7 @@
   {
     "name": "Outlit",
     "url": "https://outlit.ai",
-    "linkedin": "https://www.linkedin.com/company/outlit",
+    "linkedin": "https://www.linkedin.com/company/outlitai",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$500K (YC W25)",
@@ -376,8 +376,8 @@
   },
   {
     "name": "Ergo",
-    "url": "https://ergo.so",
-    "linkedin": "https://www.linkedin.com/company/ergo-yc",
+    "url": "https://joinergo.com",
+    "linkedin": "https://www.linkedin.com/company/ergoai",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$500K (YC W25)",
@@ -406,8 +406,8 @@
   },
   {
     "name": "Trayd",
-    "url": "https://trayd.io",
-    "linkedin": "https://www.linkedin.com/company/trayd",
+    "url": "https://buildtrayd.com",
+    "linkedin": "https://www.linkedin.com/company/traydinc",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$10M Series A",
@@ -436,7 +436,7 @@
   },
   {
     "name": "Unlimited Industries",
-    "url": "https://unlimited.com",
+    "url": "https://unlimitedindustries.com",
     "linkedin": "https://www.linkedin.com/company/unlimited-industries",
     "vertical": "B2B SaaS",
     "stage": "Seed",
@@ -466,8 +466,8 @@
   },
   {
     "name": "Risotto",
-    "url": "https://risotto.ai",
-    "linkedin": "https://www.linkedin.com/company/risottohq",
+    "url": "https://tryrisotto.com",
+    "linkedin": "https://www.linkedin.com/company/tryrisotto",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$10M Seed",
@@ -497,7 +497,7 @@
   {
     "name": "Keycard",
     "url": "https://keycard.sh",
-    "linkedin": "https://www.linkedin.com/company/keycardsh",
+    "linkedin": "https://www.linkedin.com/company/keycard-labs",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$38M Seed + Series A",
@@ -512,7 +512,7 @@
   {
     "name": "Theo Ai",
     "url": "https://theoai.ai",
-    "linkedin": "https://www.linkedin.com/company/theo-ai",
+    "linkedin": "https://www.linkedin.com/company/theo-ai-inc",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$10M+ Seed/Pre-Seed",
@@ -557,7 +557,7 @@
   {
     "name": "Stack AI",
     "url": "https://www.stack-ai.com",
-    "linkedin": "https://www.linkedin.com/company/stack-ai",
+    "linkedin": "https://www.linkedin.com/company/stackai",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$16M Series A",
@@ -572,7 +572,7 @@
   {
     "name": "WisdomAI",
     "url": "https://www.wisdom.ai",
-    "linkedin": "https://www.linkedin.com/company/wisdomaihq",
+    "linkedin": "https://www.linkedin.com/company/wisdomai-inc",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$73M total ($50M Series A)",
@@ -586,8 +586,8 @@
   },
   {
     "name": "Ridge AI",
-    "url": "https://www.ridgeai.io",
-    "linkedin": "https://www.linkedin.com/company/ridge-ai-inc",
+    "url": "https://ridgedata.ai",
+    "linkedin": "https://www.linkedin.com/company/ridgedata-ai",
     "vertical": "B2B SaaS",
     "stage": "Pre-Seed",
     "funding": "$2.6M Pre-Seed",
@@ -631,8 +631,8 @@
   },
   {
     "name": "Equal Parts",
-    "url": "https://equalparts.com",
-    "linkedin": "https://www.linkedin.com/company/equal-parts-insurance",
+    "url": "https://equalparts.ai",
+    "linkedin": "https://www.linkedin.com/company/equalparts",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$23M Series A",
@@ -662,7 +662,7 @@
   {
     "name": "Tofu",
     "url": "https://www.tofuhq.com",
-    "linkedin": "https://www.linkedin.com/company/tofuhq",
+    "linkedin": "https://www.linkedin.com/company/tofuai",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$5M Seed",
@@ -692,7 +692,7 @@
   {
     "name": "QuiverAI",
     "url": "https://quiver.ai",
-    "linkedin": "https://www.linkedin.com/company/quiverai",
+    "linkedin": "https://www.linkedin.com/company/quiver-ai",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "$8.3M Seed",
@@ -722,7 +722,7 @@
   {
     "name": "Lotus Health AI",
     "url": "https://lotus.ai",
-    "linkedin": "https://www.linkedin.com/company/lotus-health-ai",
+    "linkedin": "https://www.linkedin.com/company/lotushealthai",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$41M total ($35M Series A)",
@@ -752,7 +752,7 @@
   {
     "name": "Jimini Health",
     "url": "https://jiminihealth.com",
-    "linkedin": "https://www.linkedin.com/company/jimini-health",
+    "linkedin": "https://www.linkedin.com/company/jiminihealth",
     "vertical": "Health Tech",
     "stage": "Seed",
     "funding": "$25M total Seed",
@@ -797,7 +797,7 @@
   {
     "name": "Translucent",
     "url": "https://www.translucent.ai",
-    "linkedin": "https://www.linkedin.com/company/translucent-ai",
+    "linkedin": "https://www.linkedin.com/company/translucentai",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$27M Series A",
@@ -811,8 +811,8 @@
   },
   {
     "name": "Blossom Health",
-    "url": "https://www.blossomhealth.com",
-    "linkedin": "https://www.linkedin.com/company/blossom-health-inc",
+    "url": "https://joinblossomhealth.com",
+    "linkedin": "https://www.linkedin.com/company/join-blossom-health",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$20M Seed+Series A",
@@ -842,7 +842,7 @@
   {
     "name": "Generation Lab",
     "url": "https://www.generationlab.com",
-    "linkedin": "https://www.linkedin.com/company/generation-lab",
+    "linkedin": "https://www.linkedin.com/company/generation-lab-longevity",
     "vertical": "Health Tech",
     "stage": "Seed",
     "funding": "$11M Seed",
@@ -857,7 +857,7 @@
   {
     "name": "Circulate Health",
     "url": "https://www.circulate.health",
-    "linkedin": "https://www.linkedin.com/company/circulate-health",
+    "linkedin": "https://www.linkedin.com/company/circulatehealth",
     "vertical": "Health Tech",
     "stage": "Seed",
     "funding": "$12M Seed",
@@ -871,7 +871,7 @@
   },
   {
     "name": "HEARTio",
-    "url": "https://www.heartio.com",
+    "url": "https://heartio.ai",
     "linkedin": "https://www.linkedin.com/company/heartio",
     "vertical": "Health Tech",
     "stage": "Seed",
@@ -901,7 +901,7 @@
   },
   {
     "name": "Yuzu Health",
-    "url": "https://www.yuzuhealth.com",
+    "url": "https://yuzu.health",
     "linkedin": "https://www.linkedin.com/company/yuzu-health",
     "vertical": "Health Tech",
     "stage": "Series A",
@@ -916,7 +916,7 @@
   },
   {
     "name": "Develop Health",
-    "url": "https://www.develophealth.com",
+    "url": "https://develophealth.ai",
     "linkedin": "https://www.linkedin.com/company/develop-health",
     "vertical": "Health Tech",
     "stage": "Series A",
@@ -931,8 +931,8 @@
   },
   {
     "name": "Coral",
-    "url": "https://www.usecoral.com",
-    "linkedin": "https://www.linkedin.com/company/use-coral",
+    "url": "https://trycoral.ai",
+    "linkedin": "https://www.linkedin.com/company/trycoral",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$12.5M Series A",
@@ -947,7 +947,7 @@
   {
     "name": "Anterior",
     "url": "https://www.anterior.com",
-    "linkedin": "https://www.linkedin.com/company/anteriorhealth",
+    "linkedin": "https://www.linkedin.com/company/anteriorai",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$20M Series A",
@@ -976,7 +976,7 @@
   },
   {
     "name": "Enzo Health",
-    "url": "https://www.enzohealth.com",
+    "url": "https://enzo.health",
     "linkedin": "https://www.linkedin.com/company/enzo-health",
     "vertical": "Health Tech",
     "stage": "Series A",
@@ -991,7 +991,7 @@
   },
   {
     "name": "XCaliber Health",
-    "url": "https://www.xcaliber.health",
+    "url": "https://xcaliberhealth.ai",
     "linkedin": "https://www.linkedin.com/company/xcaliber-health",
     "vertical": "Health Tech",
     "stage": "Seed",
@@ -1007,7 +1007,7 @@
   {
     "name": "Counsel Health",
     "url": "https://www.counselhealth.com",
-    "linkedin": "https://www.linkedin.com/company/counsel-health",
+    "linkedin": "https://www.linkedin.com/company/counselhealth",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$25M Series A",
@@ -1022,7 +1022,7 @@
   {
     "name": "Health Universe",
     "url": "https://www.healthuniverse.com",
-    "linkedin": "https://www.linkedin.com/company/health-universe",
+    "linkedin": "https://www.linkedin.com/company/healthuniverse",
     "vertical": "Health Tech",
     "stage": "Seed",
     "funding": "$6M Seed",
@@ -1052,7 +1052,7 @@
   {
     "name": "Evvy",
     "url": "https://www.evvy.com",
-    "linkedin": "https://www.linkedin.com/company/evvy",
+    "linkedin": "https://www.linkedin.com/company/evvybio",
     "vertical": "Health Tech",
     "stage": "Series A",
     "funding": "$14M Series A",
@@ -1097,7 +1097,7 @@
   {
     "name": "Jump",
     "url": "https://www.jump.com",
-    "linkedin": "https://www.linkedin.com/company/jumpsports",
+    "linkedin": "https://www.linkedin.com/company/jump",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$23M Series A",
@@ -1112,7 +1112,7 @@
   {
     "name": "Splash Sports",
     "url": "https://splashsports.com",
-    "linkedin": "https://www.linkedin.com/company/splash-sports",
+    "linkedin": "https://www.linkedin.com/company/splashsports",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$14.1M Series A",
@@ -1127,7 +1127,7 @@
   {
     "name": "Fanstake",
     "url": "https://fanstake.com",
-    "linkedin": "https://www.linkedin.com/company/fanstake",
+    "linkedin": "https://www.linkedin.com/company/fanstakeinc",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$6.25M Seed",
@@ -1157,7 +1157,7 @@
   {
     "name": "Outlier",
     "url": "https://outlier.bet",
-    "linkedin": "https://www.linkedin.com/company/outlier-bet",
+    "linkedin": "https://www.linkedin.com/company/outlierdotbet",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$10.7M Series A",
@@ -1186,8 +1186,8 @@
   },
   {
     "name": "Rec",
-    "url": "https://www.getrec.com",
-    "linkedin": "https://www.linkedin.com/company/getrec",
+    "url": "https://rec.us",
+    "linkedin": "https://www.linkedin.com/company/rec-technologies",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$11M Series A",
@@ -1202,7 +1202,7 @@
   {
     "name": "SwingVision",
     "url": "https://swing.vision",
-    "linkedin": "https://www.linkedin.com/company/swingvision",
+    "linkedin": "https://www.linkedin.com/company/swing-vision",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$6M Series A",
@@ -1231,8 +1231,8 @@
   },
   {
     "name": "StatusPro",
-    "url": "https://www.statuspro.io",
-    "linkedin": "https://www.linkedin.com/company/statuspro",
+    "url": "https://status.pro",
+    "linkedin": "https://www.linkedin.com/company/statusprohq",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$20M Series A",
@@ -1276,8 +1276,8 @@
   },
   {
     "name": "Youth Inc",
-    "url": "https://youthinc.com",
-    "linkedin": "https://www.linkedin.com/company/youth-inc",
+    "url": "https://youth.inc",
+    "linkedin": "https://www.linkedin.com/company/youthincsports",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$4.5M Seed",
@@ -1292,7 +1292,7 @@
   {
     "name": "Ankored",
     "url": "https://www.ankored.com",
-    "linkedin": "https://www.linkedin.com/company/ankored",
+    "linkedin": "https://www.linkedin.com/company/ankored-inc",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$4M Seed",
@@ -1307,7 +1307,7 @@
   {
     "name": "Pro Athlete Community",
     "url": "https://proathletecommunity.com",
-    "linkedin": "https://www.linkedin.com/company/pro-athlete-community",
+    "linkedin": "https://www.linkedin.com/company/pro-athlete-community-pac",
     "vertical": "Sports Tech",
     "stage": "Series A",
     "funding": "$7.6M Series A",
@@ -1322,7 +1322,7 @@
   {
     "name": "College Sports Company",
     "url": "https://collegesportsco.com",
-    "linkedin": "https://www.linkedin.com/company/the-college-sports-company",
+    "linkedin": "https://www.linkedin.com/company/collegesportsco",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$5M Seed",
@@ -1336,8 +1336,8 @@
   },
   {
     "name": "Mustard",
-    "url": "https://www.mustard.com",
-    "linkedin": "https://www.linkedin.com/company/mustard-ai",
+    "url": "https://teammstrd.com",
+    "linkedin": "https://www.linkedin.com/company/teammstrd",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$3.75M Seed",
@@ -1352,7 +1352,7 @@
   {
     "name": "Uplift Labs",
     "url": "https://www.uplift.ai",
-    "linkedin": "https://www.linkedin.com/company/uplift-labs",
+    "linkedin": "https://www.linkedin.com/company/uplift-labs-inc",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "~$11.4M Seed total",
@@ -1382,7 +1382,7 @@
   {
     "name": "Out2Win",
     "url": "https://www.out2win.io",
-    "linkedin": "https://www.linkedin.com/company/out2win",
+    "linkedin": "https://www.linkedin.com/company/out2win-sports",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$1.3M Seed",
@@ -1397,7 +1397,7 @@
   {
     "name": "AthleteAgent",
     "url": "https://www.athleteagent.com",
-    "linkedin": "https://www.linkedin.com/company/athleteagent",
+    "linkedin": "https://www.linkedin.com/company/athlete-agent",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$3M Seed",
@@ -1546,7 +1546,7 @@
   },
   {
     "name": "Somnee",
-    "url": "https://somnee.com",
+    "url": "https://somneesleep.com",
     "linkedin": "https://www.linkedin.com/company/somnee",
     "vertical": "Health Tech",
     "stage": "Seed",
@@ -1562,7 +1562,7 @@
   {
     "name": "Mimo",
     "url": "https://www.mimohq.com",
-    "linkedin": "https://www.linkedin.com/company/mimo-hq",
+    "linkedin": "https://www.linkedin.com/company/joinmimo",
     "vertical": "B2B SaaS",
     "stage": "Seed",
     "funding": "€18M Seed",
@@ -1577,7 +1577,7 @@
   {
     "name": "Boardy",
     "url": "https://boardy.ai",
-    "linkedin": "https://www.linkedin.com/company/boardy-ai",
+    "linkedin": "https://www.linkedin.com/company/boardy",
     "vertical": "Consumer Tech",
     "stage": "Seed",
     "funding": "$8M Seed",
@@ -1712,7 +1712,7 @@
   {
     "name": "Resend",
     "url": "https://resend.com",
-    "linkedin": "https://www.linkedin.com/company/resend-inc",
+    "linkedin": "https://www.linkedin.com/company/resend",
     "vertical": "B2B SaaS",
     "stage": "Series A",
     "funding": "$18M Series A",
@@ -1756,8 +1756,8 @@
   },
   {
     "name": "Peripheral Labs",
-    "url": "https://peripherallabs.com",
-    "linkedin": "https://www.linkedin.com/company/peripheral-labs",
+    "url": "https://peripheral.so",
+    "linkedin": "https://www.linkedin.com/company/peripheral-inc",
     "vertical": "Sports Tech",
     "stage": "Seed",
     "funding": "$3.6M Seed",
@@ -1802,7 +1802,7 @@
   {
     "name": "Sycai Medical",
     "url": "https://sycaimedical.com",
-    "linkedin": "https://www.linkedin.com/company/sycai-medical",
+    "linkedin": "https://www.linkedin.com/company/sycaimedical",
     "vertical": "Health Tech",
     "stage": "Seed",
     "funding": "€3M Seed",
